@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700&display=swap" rel="stylesheet">    
+    <link rel="shortcut icon" href="./image/favicon.ico" type="image/x-icon" />   
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ecomercial</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="navigation">
+            <div class="container">
+                <nav class="nav">
+                    <div class="nav__hamburger">
+                        <svg>
+                            <use xlink:href="./image/sprite.svg#icon-menu"></use>
+                        </svg>
+                    </div>
+                    <div class="nav__logo">
+                        <a href="/" class="scroll-link">PHONE</a>
+                    </div>
+                    <div class="nav__menu open">
+                        <div class="menu__top">
+                            <span class="nav__category">PHONE</span>
+                            <a href="#" class="close__toggle">
+                                <svg>
+                                    <use xlink:href="./image/sprite.svg#icon-cross"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#header" class="nav__link scroll-link">home</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#category" class="nav__link scroll-link">category</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#news" class="nav__link scroll-link">blog</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link scroll-link">contact</a>
+                        </li>
+                    </ul>
+                    <div class="nav__icons">
+                        <a href="#" class="icons__item">
+                            <svg>
+                                <use xlink:href="./image/sprite.svg#icon-user"></use>
+                            </svg>
+                        </a>
+
+                        <a href="#" class="icons__item">
+                            <svg>
+                                <use xlink:href="./image/sprite.svg#icon-search"></use>
+                            </svg>
+                        </a>
+
+                        <a href="#" class="icons__item">
+                            <svg>
+                                <use xlink:href="./image/sprite.svg#icon-shopping-basket"></use>
+                            </svg>
+                            <span id="cart__total">0</span>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="./js/index.js"></script>
+
+    <script src="./js/slider.js"></script>
+
+    <script src="./js/products.js"></script>
+</body>
+</html>
